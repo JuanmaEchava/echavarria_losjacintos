@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Etiquetas h */
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;    
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D88334;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Header y Navegador */
+
+header{
+    border-bottom: solid 1px #D88334;
+    padding: 0px 85px 0px 85px;
+    background-color: #000000;
+}
+
+.nav__logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    transition: all .15s ease-out;
+}
+
+.nav__logo:hover{
+    color: #D88334;
+    transform: scale(1.10);
+}
+
+.nav__seccion{
+    margin-left: 30px;
+    transition: all .15s ease-out;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;    
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .15s ease-out;
+}
+
+.nav__seccion:hover{
+    color: #D88334;
+    transform: scale(1.10);
+}
+
+.nav__bold{
+    font-weight: 500;
+    color:#D88334;
+}
+
+/* .grid__header{
+    display: grid;
+    grid-template-areas: "logo nav";
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.grid__logo{
+    grid-area: logo;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 85px;
+}
+
+.grid__nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 85px;
+} */
+
+/* Inicio */
+
+.caption__ancho {
+    width: 100%;
+}
+
+.carousel-caption {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.inicio__titulo{
+    color: white;
+}
+
+.inicio__parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.boton{
+    height: auto;
+    width: auto;
+    border: solid 1px #D88334;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px;
+    color: #D88334;
+    text-decoration: none;
+    transition: all .15s ease-out;
+}
+
+.boton:hover{
+    transform: scale(1.15);
+    background-color:#D88334;
+    color: black;
+}
+
+.boton a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D88334;
+    text-decoration: none;
+    transition: all .15s ease-out;
+}
+
+.boton a:hover{
+    color: black;
+}
+
+/* Tienda */
+
+.grid__tienda{
+    display: grid;
+    grid-template-areas: "uno dos tres cuatro"
+                        "cinco seis siete ocho";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 70px;
+}
+
+.grid__articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.grid__articulo img{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 5px;
+}
+
+.grid__articulo p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: rgb(0, 0, 0);
+}
+
+.grid__artuno{
+    grid-area: uno;
+}
+
+.grid__artdos{
+    grid-area: dos;
+}
+
+.grid__arttres{
+    grid-area: tres;
+}
+
+.grid__artcuatro{
+    grid-area: cuatro;
+}
+
+.grid__artcinco{
+    grid-area: cinco;
+}
+
+.grid__artseis{
+    grid-area: seis;
+}
+
+.grid__artsiete{
+    grid-area: siete;
+}
+
+.grid__artocho{
+    grid-area: ocho;
+}
+
+/* Sobre Nosotros */
+
+.sobreuno{
+    width: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.sobreuno__parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    width: 775px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.sobreuno__parrafo p{
+    margin-bottom: 15px;
+}
+
+.sobredos{
+    width: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.sobredos__parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    width: 775px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.sobredos__parrafo p{
+    margin-bottom: 15px;
+}
+
+/* Contacto */
+
+.contacto{
+    height: 675px;
+    width: auto;
+    padding: 15px;
+}
+
+.contacto__formulario{
+    margin-top: 20px;
+}
+
+.contacto__formulario label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D88334;
+    margin-bottom: 20px;
+}
+
+.contacto__formulario label input{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    height: 30px;
+    width: 775px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: solid 1px #D88334;
+}
+
+.contacto__formulario label textarea{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    height: 150px;
+    width: 775px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border: solid 1px #D88334;
+}
+
+.contacto__info{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.contacto__info p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Asociate */
+
+.asociate {
+    height: 725px;
+    width: auto;
+    padding: 15px;
+}
+
+.asociate__parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    width: 775px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+.asociate__formulario label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D88334;
+    margin-bottom: 20px;
+}
+
+.asociate__formulario label input{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    height: 30px;
+    width: 775px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: solid 1px #D88334;
+}
+
+.asociate__formulario label textarea{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    height: 30px;
+    width: 775px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border: solid 1px #D88334;
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    padding: 15px;
+    background-color: black;
+}
+
+.redes img{
+    height: 30px;
+    width: 30px;
+    opacity: 75%;
+    margin-left: 30px;
+    transition: all .15s ease-out;
+}
+
+.redes img:hover{
+    transform: scale(1.25);
+}
+
+.grid__footer{
+    display: grid;
+    grid-template-areas: "legales redes";
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid__legales{
+    grid-area: legales;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 85px;
+}
+
+.grid__legales h5{
+    margin-bottom: 10px;
+}
+
+.grid__redes{
+    grid-area: redes;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 85px;
+}
+
+@media (min-width: 320px) and (max-width: 540px){
+
+/* Etiquetas h */
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1rem;
+    text-align: center;
+}
+    
+
+/* Header y Navegador */
+
+/* header{
+    padding: 30px;
+}
+
+nav ul li{
+    display: block;
+    margin-right: 0px;
+}
+
+nav ul li a{
+    font-size: 1.5rem;
+}
+
+.grid__header{
+    grid-template-areas: "logo"
+                        "nav";
+    grid-template-columns: 1fr;
+}
+
+.grid__logo{
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.grid__nav{
+    align-items: center;
+    margin-right: 0px;
+    text-align: center;
+} */
+
+/* Inicio */
+
+/* .inicio{
+    height: 60rem;
+}
+
+.inicio__titulo{
+    width: 30rem;
+}
+
+.inicio__parrafo{
+    font-size: 1.5rem;
+    width: 30rem;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.boton a{
+    font-size: 1.5rem;
+} */
+
+/* Tienda */
+
+.grid__tienda{
+    grid-template-areas: "uno"
+                        "dos"
+                        "tres"
+                        "cuatro"
+                        "cinco"
+                        "seis"
+                        "siete"
+                        "ocho";
+    grid-template-columns: 1fr;
+    margin: 0px;
+}
+
+.grid__articulo img{
+    width: 28rem;
+    height: 28rem;
+    margin-bottom: 15px;
+}
+
+.grid__articulo p{
+    font-size: 1rem;
+}
+
+/* Footer */
+
+footer{
+    height: 250px;
+    padding: 30px;
+}
+
+.redes img{
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.grid__footer{
+    grid-template-areas: "legales"
+                        "redes";
+    grid-template-columns: 1fr;
+}
+
+.grid__legales{
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.grid__redes{
+    justify-content: center;
+    margin-right: 0px;
+}
+}
+
+@media (min-width: 541px) and (max-width: 720px){
+
+/* Etiquetas h */
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 1rem;
+    text-align: center;
+}
+    
+
+/* Header y Navegador */
+
+/* header{
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    font-size: 1rem;
+}
+
+.grid__header{
+    grid-template-areas: "logo"
+                        "nav";
+    grid-template-columns: 1fr;
+}
+
+.grid__logo{
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.grid__nav{
+    align-items: center;
+    margin-right: 0px;
+    text-align: center;
+} */
+
+/* Inicio */
+
+/* .inicio{
+    height: 50rem;
+}
+
+.inicio__titulo{
+    width: 40rem;
+}
+
+.inicio__parrafo{
+    font-size: 1rem;
+    width: 40rem;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.boton a{
+    font-size: 1rem;
+} */
+
+/* Tienda */
+
+.grid__tienda{
+    grid-template-areas: "uno dos"
+                        "tres cuatro"
+                        "cinco seis"
+                        "siete ocho";
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+}
+
+.grid__articulo img{
+    width: 18rem;
+    height: 18rem;
+    margin-bottom: 10px;
+}
+
+.grid__articulo p{
+    font-size: 0.75rem;
+}
+
+/* Footer */
+
+footer{
+    height: 200px;
+    padding: 20px;
+}
+
+.redes img{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid__footer{
+    grid-template-areas: "legales"
+                        "redes";
+    grid-template-columns: 1fr;
+}
+
+.grid__legales{
+    align-items: center;
+    margin-left: 0px;
+}
+
+.grid__redes{
+    justify-content: center;
+    margin-right: 0px;
+}
+}
