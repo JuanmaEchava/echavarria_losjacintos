@@ -17,6 +17,12 @@ h3{
     font-weight: 500;
     font-size: 1rem;
     color: #D88334;
+    transition: all .15s ease-out;
+}
+
+h3:hover{
+    transform: scale(1.10);
+    transition: all .15s ease-out;
 }
 
 h5{
@@ -135,65 +141,42 @@ header{
 
 /* Tienda */
 
-.grid__tienda{
-    display: grid;
-    grid-template-areas: "uno dos tres cuatro"
-                        "cinco seis siete ocho";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 70px;
+.tienda {
+    padding: 2rem 0rem 0rem 0rem;
 }
 
-.grid__articulo{
+.articulo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    margin-bottom: 2rem;
 }
 
-.grid__articulo img{
+.articulo img{
     width: 20rem;
     height: 20rem;
-    margin-bottom: 5px;
+    margin-bottom: 0.75rem;
+    transition: all .15s ease-out;
+    opacity: 75%;
 }
 
-.grid__articulo p{
+.articulo img:hover{
+    transform: scale(1.05);
+    opacity: 100%;
+    transition: all .15s ease-out;
+}
+
+.articulo a{
+    text-decoration: none;
+}
+
+.articulo p{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 0.75rem;
     color: rgb(0, 0, 0);
-}
-
-.grid__artuno{
-    grid-area: uno;
-}
-
-.grid__artdos{
-    grid-area: dos;
-}
-
-.grid__arttres{
-    grid-area: tres;
-}
-
-.grid__artcuatro{
-    grid-area: cuatro;
-}
-
-.grid__artcinco{
-    grid-area: cinco;
-}
-
-.grid__artseis{
-    grid-area: seis;
-}
-
-.grid__artsiete{
-    grid-area: siete;
-}
-
-.grid__artocho{
-    grid-area: ocho;
+    margin: 0rem;
 }
 
 /* Sobre Nosotros */
@@ -365,10 +348,10 @@ footer{
 }
 
 .redes img{
-    height: 30px;
-    width: 30px;
+    height: 2rem;
+    width: 2rem;
     opacity: 75%;
-    margin: 0rem 2rem 0rem 2rem;
+    margin: 0rem 1rem 0rem 1rem;
     transition: all .15s ease-out;
 }
 
