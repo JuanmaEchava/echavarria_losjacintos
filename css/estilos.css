@@ -1,5 +1,36 @@
 /* Colores */
 /* Fuentes */
+.form__label, .contacto__formulario label, .asociate__formulario label {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #D88334;
+  margin-bottom: 1rem; }
+
+.form__input, .contacto__formulario label input, .asociate__formulario label input {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  height: 2rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border: solid 1px #D88334; }
+
+.form__textarea, .contacto__formulario label textarea, .asociate__formulario label textarea {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  height: 10rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  border: solid 1px #D88334; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -11,17 +42,17 @@ h1 {
   font-size: 2rem;
   color: black; }
 
-h3 {
+h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1rem;
   color: #D88334;
   transition: all .15s ease-out; }
-  h3:hover {
+  h2:hover {
     transform: scale(1.1);
     transition: all .15s ease-out; }
 
-h5 {
+h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 0.75rem;
@@ -33,15 +64,20 @@ header {
   padding: 0px 2rem 0px 2rem;
   background-color: black; }
 
-.nav__logo {
+.navbar-toggler {
+  border: none; }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.navbar__logo {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   transition: all .15s ease-out; }
-  .nav__logo:hover {
+  .navbar__logo:hover {
     color: #D88334;
     transform: scale(1.1); }
 
-.nav__seccion {
+.navbar__seccion {
   margin-left: 2rem;
   transition: all .15s ease-out;
   font-family: "Poppins", sans-serif;
@@ -50,18 +86,13 @@ header {
   color: white;
   text-decoration: none;
   transition: all .15s ease-out; }
-  .nav__seccion:hover {
+  .navbar__seccion:hover {
     color: #D88334;
     transform: scale(1.1); }
 
-.nav__bold {
+.navbar__bold {
   font-weight: 500;
   color: #D88334; }
-
-.navbar-toggler {
-  border: none; }
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
 /* Inicio */
 .caption__ancho {
@@ -169,40 +200,13 @@ header {
   .contacto__info {
     width: 15rem;
     margin-top: 4.5rem; }
-    .contacto__info h3:hover {
+    .contacto__info h2:hover {
       display: none; }
     .contacto__info p {
       font-family: "Poppins", sans-serif;
       font-weight: 300;
       font-size: 0.75rem;
       color: black; }
-  .contacto__formulario label {
-    display: block;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #D88334;
-    margin-bottom: 1rem; }
-    .contacto__formulario label input {
-      display: block;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 0.75rem;
-      height: 2rem;
-      width: 100%;
-      margin-top: 0.5rem;
-      padding-left: 0.5rem;
-      border: solid 1px #D88334; }
-    .contacto__formulario label textarea {
-      display: block;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 0.75rem;
-      height: 10rem;
-      width: 100%;
-      margin-top: 0.5rem;
-      padding-left: 0.5rem;
-      border: solid 1px #D88334; }
 
 /* Asociate */
 .asociate {
@@ -220,34 +224,6 @@ header {
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: black; }
-  .asociate__formulario label {
-    display: block;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #D88334;
-    margin-bottom: 1rem; }
-    .asociate__formulario label input {
-      display: block;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 0.75rem;
-      height: 2rem;
-      width: 100%;
-      margin-top: 0.5rem;
-      padding-left: 0.5rem;
-      border: solid 1px #D88334; }
-    .asociate__formulario label textarea {
-      display: block;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 0.75rem;
-      height: 10rem;
-      width: 100%;
-      margin-top: 0.5rem;
-      padding-left: 0.5rem;
-      margin-bottom: 1rem;
-      border: solid 1px #D88334; }
 
 /* Footer */
 footer {
