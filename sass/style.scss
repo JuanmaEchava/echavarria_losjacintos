@@ -78,13 +78,13 @@ header {
   }
 }
 
-/* Inicio */
+/* Main */
 
-.caption {
-  &__ancho {
-    width: 100%;
-  }
+main {
+  min-height: 100vh;
 }
+
+/* Inicio */
 
 .carousel {
   &-caption {
@@ -92,6 +92,12 @@ header {
     align-items: center;
     height: 100%; 
   }  
+}
+
+.caption {
+  &__ancho {
+    width: 100%;
+  }
 }
 
 .inicio {
@@ -192,11 +198,11 @@ header {
     }
   }
   &__imagenUno {
-    height: 25rem;
+    height: 35rem;
     background-image: url("../recursos/sobre1-medida.jpg");
   }
   &__imagenDos {
-    height: 25rem;
+    height: 35rem;
     background-image: url("../recursos/sobre2-medida.jpg");
   }
 }

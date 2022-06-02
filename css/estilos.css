@@ -24,7 +24,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 0.75rem;
-  height: 10rem;
+  height: 15rem;
   width: 100%;
   margin-top: 0.5rem;
   padding-left: 0.5rem;
@@ -94,14 +94,18 @@ header {
   font-weight: 500;
   color: #D88334; }
 
-/* Inicio */
-.caption__ancho {
-  width: 100%; }
+/* Main */
+main {
+  min-height: 100vh; }
 
+/* Inicio */
 .carousel-caption {
   display: flex;
   align-items: center;
   height: 100%; }
+
+.caption__ancho {
+  width: 100%; }
 
 .inicio__titulo {
   color: white; }
@@ -184,11 +188,11 @@ header {
     color: #D88334; }
 
 .sobre__imagenUno {
-  height: 25rem;
+  height: 35rem;
   background-image: url("../recursos/sobre1-medida.jpg"); }
 
 .sobre__imagenDos {
-  height: 25rem;
+  height: 35rem;
   background-image: url("../recursos/sobre2-medida.jpg"); }
 
 /* Contacto */
