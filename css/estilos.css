@@ -40,7 +40,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 2rem;
-  color: black; }
+  color: #D88334; }
 
 h2 {
   font-family: "Poppins", sans-serif;
@@ -148,6 +148,8 @@ main {
 /* Tienda */
 .tienda {
   padding: 2rem 0rem 0rem 0rem; }
+  .tienda__titulo {
+    text-align: center; }
 
 .articulo {
   display: flex;
@@ -205,7 +207,7 @@ main {
     width: 15rem;
     margin-top: 4.5rem; }
     .contacto__info h2:hover {
-      display: none; }
+      transform: scale(1); }
     .contacto__info p {
       font-family: "Poppins", sans-serif;
       font-weight: 300;
@@ -253,6 +255,9 @@ footer {
     justify-content: flex-start; } }
 
 @media (min-width: 577px) and (max-width: 1030px) {
+  /* Header y Navegador */
+  .navbar__seccion {
+    margin-left: 0rem; }
   /* Sobre Nosotros */
   .sobre__parrafo {
     display: flex;
@@ -268,6 +273,9 @@ footer {
     justify-content: flex-start; } }
 
 @media (max-width: 576px) {
+  /* Header y Navegador */
+  .navbar__seccion {
+    margin-left: 0rem; }
   /* Footer */
   .redes {
     display: flex;
@@ -295,6 +303,9 @@ footer {
     justify-content: flex-start; } }
 
 @media (min-width: 577px) and (max-width: 768px) {
+  /* Header y Navegador */
+  .navbar__seccion {
+    margin-left: 0rem; }
   /* Footer */
   .redes {
     display: flex;
